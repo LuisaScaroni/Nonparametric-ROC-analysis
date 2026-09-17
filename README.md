@@ -1,4 +1,13 @@
 # Studying Covariate Effects in ROC Curve
+This repository contains an empirical application and validation of the nonparametric test proposed by Fanjul-Hevia et al.(2025) ROC curves.
+
+The theoretical framework and core testing functions reproduce the methodology described in the original paper, the original contribution of this repository focuses on applying, testing, and validating these models on real-world, noisy medical datasets to see how they behave with real data (BUPA and ILPD).
+
+## Project Overiview
+Covariates can influence the diagnostic capability of a marker. The project studies if it is strictly necessary to adjust for these covariates or if standard pooled ROC is sufficient.
+
+* **Goal:** compare pooled ROC, conditional ROC and covariate-adjusted ROC
+* **Testing Procedure:** apply bootstrap based hypothesis test to check the null hypothesis ($H_0: AROC(p)=ROC(p)$)
 
 My independent work involved evaluating the framework against the **Indian Liver Records (ILPD)** dataset to diagnose hepatocellular injury.
 
