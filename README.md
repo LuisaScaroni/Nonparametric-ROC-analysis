@@ -7,7 +7,7 @@ The theoretical framework and core testing functions reproduce the methodology d
 Covariates can influence the diagnostic capability of a marker. The project studies if it is strictly necessary to adjust for these covariates or if standard pooled ROC is sufficient.
 
 * **Goal:** compare pooled ROC, conditional ROC and covariate-adjusted ROC
-* **Testing Procedure:** apply bootstrap based hypothesis test to check the null hypothesis ($H_0: AROC(p)=ROC(p)$)
+* **Testing Procedure:** apply bootstrap based hypothesis test to check the null hypothesis $H_0:AROC(p)=ROC(p)$
 
 My independent work involved evaluating the framework against the **Indian Liver Records (ILPD)** dataset to diagnose hepatocellular injury.
 
