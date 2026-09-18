@@ -20,6 +20,10 @@ My independent work involved evaluating the framework against the **Indian Liver
 * **Language:** R
 * **Libraries:** `ggplot2`, `ggExtra`, `hdrcde`, `pROC`, `pracma`, `viridis`
   
+## Repository Contents:
+* `ROC curve paper.pdf`: report about the paper and the study conducted on real world data by myself
+* `ROC curve.R`: R code for studying how the methodology works on real world unperfect data
+
 ## References
 * **Original Methodology**: Fanjul-Hevia, A., Pardo-Fernández, J. C., & González-Manteiga, W. (2025). *A New Test for Assessing the Covariate Effect in ROC Curves*. Statistics in Medicine
 * **Data Sources**: BUPA Liver Disorders Dataset (UCI Machine Learning Repository) and Indian Liver Patient Records (Kaggle)
